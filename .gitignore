@@ -104,6 +104,9 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+# PyCharm settings (https://www.jetbrains.com/help/pycharm/project.html)
+.idea/
+
 # Optika stuff - mostly generated files
 outputs/
 errorFile.pyout

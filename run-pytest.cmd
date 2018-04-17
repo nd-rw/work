@@ -1,7 +1,6 @@
-@echo off
 pushd %~dp0
-python -m venv .\venv
-venv\Scripts\python -m pip install -r requirements.txt
+python -m venv .\venv || goto :end
+venv\Scripts\python -m pip install -r requirements.txt || goto :end
 venv\Scripts\python -m pytest
-pause
-@echo on
+:end
+@pause

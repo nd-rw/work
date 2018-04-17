@@ -110,3 +110,7 @@ venv.bak/
 # Optika stuff - mostly generated files
 outputs/
 errorFile.pyout
+
+# Generic ignores go above here. Add more in "python-project-template" repo.
+# ---------------------------
+# Project-specific ignores go below here.

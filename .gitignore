@@ -110,6 +110,8 @@ venv.bak/
 # Optika stuff - mostly generated files
 outputs/
 errorFile.pyout
+/process.id
+/progress.txt
 
 # Generic ignores go above here. Add more in "python-project-template" repo.
 # ---------------------------
